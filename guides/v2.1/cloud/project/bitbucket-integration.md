@@ -160,7 +160,7 @@ After configuring the Bitbucket integration, test it by pushing a simple change 
 
     ![Testing the Bitbucket integration]({{ site.baseurl }}/common/images/cloud_test_bitbucket_integration.png)
 
-## Use the CLI and Git
+## Create a new Cloud branch
 The Bitbucket integration cannot create new environments in your project; therefore, you must use the `magento-cloud` CLI tool to [create branches]({{ page.baseurl }}/cloud/env/environments-start.html#getstarted).
 
 After you create a new environment, you can push the corresponding branch to your remote Bitbucket repository using regular git commands, such as `git push -u origin <your-branch>`. Subsequent changes to your branch in Bitbucket automatically build and deploy the environment.
