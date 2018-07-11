@@ -35,8 +35,6 @@ The following technologies are requirements for developing and deploying your st
 *	Git
 *	Composer
 *	Magento 2
-*	Continuous Integration
-*	Architectures including Starter or Pro architecture
 
 Here are some advanced technologies we recommend getting familiar with:
 
@@ -79,7 +77,7 @@ This software is *not* upgradable but versions for the following software is con
 * [MySQL]({{ page.baseurl }}/cloud/project/project-conf-files_services-mysql.html) 5.6 and 5.7
 * [Redis]({{ page.baseurl }}/cloud/project/project-conf-files_services-redis.html) 2.8 and 3.0
 * [RabbitMQ]({{ page.baseurl }}/cloud/project/project-conf-files_services-rabbit.html) 3.5
-* [Elasticsearch]({{ page.baseurl }}/cloud/project/project-conf-files_services-elastic.html) 1.4, 1.7, and 2.4
+* [Elasticsearch]({{ page.baseurl }}/cloud/project/project-conf-files_services-elastic.html) 1.7, 2.4 and 5.0 (starting from Magento 2.3)
 
 For Staging and Production, you will use Fastly for CDN and caching. We recommend installing Fastly module 1.2.33 or later. For details, see [Fastly in Cloud]({{ page.baseurl }}/cloud/basic-information/cloud-fastly.html).
 
