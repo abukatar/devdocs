@@ -15,14 +15,15 @@ For Pro projects **created before October 23, 2017**, this integration works on 
 {: .bs-callout .bs-callout-info}
 We _strongly_ recommend using a private Bitbucket repository for your {{site.data.var.ece}} project.
 
-Before you begin, you must:
+Before you enable the integration, you must have the following:
 
--   Have a {{site.data.var.ece}} project and you must have administrator access.
--   Have a Bitbucket account and administrative access to the Bitbucket repository.
--   Install the [`magento-cloud` CLI]({{ page.baseurl }}/cloud/before/before-workspace-magento-prereqs.html#cloud-ssh-cli-cli-install) tool in your local environment.
+-  Administrator access to the {{site.data.var.ece}} project
+-  A Bitbucket account
+-  Administrator access to the Bitbucket repository
+-  [`magento-cloud` CLI]({{ page.baseurl }}/cloud/before/before-workspace-magento-prereqs.html#cloud-ssh-cli-cli-install) tool in your local environment
 
 ## Prepare your repository
-You need to clone your {{site.data.var.ece}} project from an existing environment and transfer the code to a new, empty Bitbucket repository.
+You need to clone your {{site.data.var.ece}} project from an existing environment and migrate the project branches to a new, empty Bitbucket repository, preserving the same branch names.
 
 1.  From the terminal, log in to your {{site.data.var.ece}} project.
 
@@ -67,7 +68,7 @@ You need to clone your {{site.data.var.ece}} project from an existing environmen
     origin git@bitbucket.org:<user-name>/<repo-name>.git (push)
     ```
 
-1.  Push files to your new Bitbucket repository.
+1.  Push the project files to your new Bitbucket repository. Remember to keep all branch names the same.
 
     ```bash
     git push -u origin master
