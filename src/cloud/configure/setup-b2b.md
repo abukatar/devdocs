@@ -38,6 +38,8 @@ To install the B2B module:
    ```bash
    composer update
    ```
+   {:.bs-callout-tip}
+   For Magento CE < 2.3.3 "composer update" can potentuallu lead to the following error on build stage: "An abstract factory could not create an instance of magentoframeworkappdeploymentconfig". Starting from Magento CE 2.3.3, Zend Framework was [migrated to the Laminas Project|https://community.magento.com/t5/Magento-DevBlog/Migration-of-Zend-Framework-to-the-Laminas-Project/ba-p/443251]. Consider "composer install" instead.
 
 1. Add, commit, and push code changes.
 
